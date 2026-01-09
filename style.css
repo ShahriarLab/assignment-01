@@ -1,0 +1,60 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+
+ .logo img{
+    font-size:45px ;
+    font-weight: 900;
+}
+ .btn{
+    
+width: 164px;
+height: 44px;
+background-color: #30B868;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 12px 16px 12px 16px;
+
+
+ }
+
+header{
+    background-color: #FFFFFF;
+    padding-top: 16px;
+}
+
+.nav{
+    width: 1600px;
+    height: 92px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    font-weight: 500;
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+} 
+.menu a{
+    font-size: 10px;
+    color:#474747 ;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
