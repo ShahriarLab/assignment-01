@@ -201,3 +201,85 @@ h1 {
   line-height: 1.4;
 }
 
+/* second brain section  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: #ffffff;
+}
+
+/* SECTION */
+.solution {
+  padding: 90px 0;
+}
+
+.solution-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+/* IMAGE */
+.image img {
+  width: 420px;
+  max-width: 100%;
+  display: block;
+}
+
+/* CONTENT */
+.solution-content {
+  max-width: 500px;
+}
+
+.solution-label {
+  color: #4CAF50;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.solution-content h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0b1f33;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  white-space: nowrap; /* stays in one line like design */
+}
+
+.solution-text {
+  font-size: 16px;
+  color: #5f6b7a;
+  line-height: 1.6;
+  margin-bottom: 26px;
+}
+
+/* LIST */
+.solution-list {
+  list-style: none;
+}
+
+.solution-list li {
+  font-size: 15px;
+  color: #1f2933;
+  margin-bottom: 14px;
+  padding-left: 26px;
+  position: relative;
+}
+
+.solution-list li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #4CAF50;
+}
