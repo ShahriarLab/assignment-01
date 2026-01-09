@@ -141,3 +141,63 @@ p {
   background: white;
   color: black;
 }
+
+/* notes section  */
+
+
+
+.container {
+  max-width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 50px;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.skill-box{
+    display: flex;
+    gap: 24px;
+}
+.skill-card {
+  width: 260px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 30px 20px;
+  text-align: center;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+
+.skill-card h3 {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #222;
+}
+
+.skill-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
